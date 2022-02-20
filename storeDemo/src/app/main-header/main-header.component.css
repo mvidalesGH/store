@@ -2,10 +2,8 @@ table {
     margin: 0;
     padding: 0;
     border: 0px rgb(16, 9, 117) solid;
-    width: 96%;
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
+    margin-top: 10px;
     min-width: 600px;
     border-bottom: rgb(16, 9, 117);
     border-bottom-style: groove;
@@ -15,19 +13,43 @@ table {
     width: 200px;
 }
 
-.ImageTitle img {
-    margin: 0;
-    padding: 0;
-    width: auto;
-    height: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 .Title {
+    /* position: absolute;
+    top: 0px; */
+    margin-left: 10px;
     font-size: xx-large;
 }
 
 .SubTitle {
     font-size: small;
+}
+
+.Menu {
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+}
+
+.SubTitle {
+    position: absolute;
+    bottom: -2px;
+}
+
+.LogoInfo {
+    width: 150px;
+}
+
+.userInfo {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+.LogoInfo img {
+    width: auto;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }

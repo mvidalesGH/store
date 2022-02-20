@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    overflow: hidden;
+    /* position: absolute;
+    bottom: -2px; */
+    right: 0;
+}
+
+li {
+    float: left;
+}
+
+li button {
+    display: block;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(16, 9, 117);
+    color: white;
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+}
+
+button:focus {
+    outline: rgb(238, 255, 2) auto 5px;
+    background-color: whitesmoke !important;
+    color: rgb(16, 9, 117) !important;
+    font-weight: bolder;
+}
+
+.MnuHidden {
+    display: none !important;
+}
+
+.MnuShowed {
+    display: inline !important;
+}
+
+.MnuDisabled {
+    background-color: rgb(153 150 189) !important;
+    color: whitesmoke !important;
+    background-color: rgb(236, 235, 240);
+    cursor: not-allowed;
+}
+
+.MnuEnabled {
+    background-color: rgb(16, 9, 117) !important;
+    color: white !important;
+}

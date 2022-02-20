@@ -14,7 +14,7 @@ export class MainHeaderComponent implements OnInit {
 
   config = {
     mainTitle : "Titulo Principal de la Pagina",
-    mainSubTitle : "SubTitulo de la pagina",
+    mainSubTitle : "../Principal",
     imgLogo : "../../assets/Img/companyLogo.png"
    }
 }

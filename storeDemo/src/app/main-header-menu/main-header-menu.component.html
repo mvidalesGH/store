@@ -1,0 +1,11 @@
+<ul>
+    <li *ngFor="let menu of lstMenus">
+        <!-- <a [ngClass]="{'MnuHidden': menu.visible===false,'MnuShowed': menu.visible===true}" href={{menu.MenuNombre}}> -->
+        <button class="Menubtn" [ngClass]="{'MnuHidden': menu.visible===false,'MnuShowed': menu.visible===true,'MnuDisabled': menu.enabled===false,'MnuEnabled': menu.enabled===true}" [disabled]="menu.enabled===false">
+          <i class="{{menu.Icon}}"></i>&nbsp;{{menu.MenuNombre}}
+        </button>
+    </li>
+    <li>
+        <button class="Menubtn"> Log Out </button>
+    </li>
+</ul>

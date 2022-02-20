@@ -1,16 +1,21 @@
 <table>
     <tr>
-        <td class="ImageTitle" rowspan="2">
-            <img src={{config.imgLogo}} width="auto " height="80px ">
+        <td class="LogoInfo" rowspan="2">
+            <img src={{config.imgLogo}}>
         </td>
         <td class="Title">
             {{config.mainTitle}}
+        </td>
+        <td class="userInfo">
+            <app-main-header-usr></app-main-header-usr>
         </td>
     </tr>
     <tr>
         <td class="SubTitle">
             {{config.mainSubTitle}}
         </td>
+        <td class="Menu">
+            <app-main-header-menu></app-main-header-menu>
+        </td>
     </tr>
-
 </table>

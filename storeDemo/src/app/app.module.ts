@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { MainHeaderComponent } from './main-header/main-header.component';
+import { MainHeaderUsrComponent } from './main-header-usr/main-header-usr.component';
+import { MainHeaderMenuComponent } from './main-header-menu/main-header-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainContentComponent,
-    MainHeaderComponent
+    MainHeaderComponent,
+    MainHeaderUsrComponent,
+    MainHeaderMenuComponent
   ],
   imports: [
     BrowserModule,
