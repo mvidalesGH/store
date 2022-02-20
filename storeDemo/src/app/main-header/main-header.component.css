@@ -1,0 +1,33 @@
+table {
+    margin: 0;
+    padding: 0;
+    border: 0px rgb(16, 9, 117) solid;
+    width: 96%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-width: 600px;
+    border-bottom: rgb(16, 9, 117);
+    border-bottom-style: groove;
+}
+
+.ImageTitle {
+    width: 200px;
+}
+
+.ImageTitle img {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Title {
+    font-size: xx-large;
+}
+
+.SubTitle {
+    font-size: small;
+}
